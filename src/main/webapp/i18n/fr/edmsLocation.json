@@ -1,0 +1,25 @@
+{
+    "ocrApiGatewayApp": {
+        "edmsLocation" : {
+            "home": {
+                "title": "EdmsLocations",
+                "createLabel": "Créer un nouveau Edms Location",
+                "createOrEditLabel": "Créer ou éditer un Edms Location",
+                "search": "Recherche pour Edms Location"
+            },
+            "created": "Un nouveau Edms Location a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Edms Location avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Edms Location avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Edms Location {{ id }} ?"
+            },
+            "detail": {
+                "title": "Edms Location"
+            },
+            "actualDirectory": "Actual Directory",
+            "statusId": "Status Id",
+            "createdBy": "Created By",
+            "edmsDownload": "Edms Download"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <include file="classpath:config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090835_added_entity_OcrSession.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090836_added_entity_SessionWf.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090837_added_entity_EdmsRequest.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090838_added_entity_RequestWf.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090839_added_entity_ServiceWf.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090840_added_entity_EdmsResponse.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090841_added_entity_EdmsLocation.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090842_added_entity_EdmsDownload.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090843_added_entity_ServiceResp.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="classpath:config/liquibase/changelog/20170130090836_added_entity_constraints_SessionWf.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090837_added_entity_constraints_EdmsRequest.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090840_added_entity_constraints_EdmsResponse.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090842_added_entity_constraints_EdmsDownload.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20170130090843_added_entity_constraints_ServiceResp.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+</databaseChangeLog>

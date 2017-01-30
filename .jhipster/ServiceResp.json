@@ -1,0 +1,57 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "serviceWf",
+            "otherEntityName": "serviceWf",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "serviceResp"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "rawJson",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "documentImage",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        },
+        {
+            "fieldName": "createdBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "lastRunBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastRunDur",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "lastRunDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20170130090843",
+    "entityTableName": "service_resp",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "angularJSSuffix": "ocrData"
+}

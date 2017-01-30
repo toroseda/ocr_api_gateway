@@ -1,0 +1,37 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "edmsDownload",
+            "otherEntityName": "edmsDownload",
+            "otherEntityRelationshipName": "edmsLocation"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "actualDirectory",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "statusId",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "createdBy",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170130090841",
+    "entityTableName": "edms_location",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "angularJSSuffix": "ocrData"
+}
